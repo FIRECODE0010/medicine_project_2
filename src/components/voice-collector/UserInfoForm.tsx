@@ -12,21 +12,21 @@ import {
 } from '@/components/ui/select';
 
 const DRUG_NAMES = [
-  'DEXTROSE',
-  'GINKO BILOBA',
-  'CABERGOLINE',
-  'METHYLPREDNISOLON',
-  'THEOPHYLLINE',
-  'SENNA',
-  'DICLOFENAC',
-  'METFORMIN',
+  'CLOPIDIGREI',
+  'SIMVASTATIN',
+  'CANDESARTAN',
+  'METOPROLOL',
+  'DESLORATADINE',
   'TERAZOSIN',
-  'ATORVASTATIN',
-  'SERTRALINE',
-  'ESOMEPRAZOLE',
-  'LOSARTAN',
-  'MONTELUKAST',
-  'PANTOPRAZOLE',
+  'LISINOPRIL',
+  'OMEPRAZOLE',
+  'IBUPROFEN',
+  'IRBESARTAN',
+  'OLANZAPINE',
+  'DIAZEPAM AMPULES',
+  'VALSARTAN',
+  'LACTULOSE',
+  'SUMATRIPTAM',
 ];
 
 interface UserInfo {
@@ -178,7 +178,7 @@ const UserInfoForm: React.FC<UserInfoFormProps> = ({
                   value={drug}
                   className='text-lg py-3 hover:bg-blue-50 focus:bg-blue-100'
                 >
-                  {index + 1}- 💊 {drug}
+                  {index + 16}- 💊 {drug}
                 </SelectItem>
               ))}
             </SelectContent>
